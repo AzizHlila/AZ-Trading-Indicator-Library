@@ -13,3 +13,5 @@ AZ Trading Indicator Library, a collection of Python classes designed to empower
 ```bash
 pip install pandas
 pip install numpy
+pip install python-binance
+```
