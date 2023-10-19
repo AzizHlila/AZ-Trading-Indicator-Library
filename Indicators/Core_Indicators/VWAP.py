@@ -6,6 +6,7 @@ class VWAP:
     def VWAP(data:pd.DataFrame,Mode:str,MVWAP_WINDOW=1):
         
         '''
+        ## Volume-Weighted Average Price (VWAP)
             mode values: 
                 "typical" : (low+high+close)/3
                 "close"   : close

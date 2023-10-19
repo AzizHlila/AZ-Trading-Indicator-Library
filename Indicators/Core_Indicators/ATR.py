@@ -15,5 +15,5 @@ class ATR:
         data['tr1'] = abs(high - close.shift())
         data['tr2'] = abs(low - close.shift())
         tr = data[['tr0', 'tr1', 'tr2']].max(axis=1)
-        atr = MA.WWMA(tr,n)
+        atr = MA.WMA(tr,n)
         return atr

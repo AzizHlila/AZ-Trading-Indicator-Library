@@ -3,8 +3,11 @@ import numpy as np
 
 
 class RSI:
+ 
     def RSI(src:pd.Series,WINDOW_LENGTH=14,SMA_WINDOW=1)->pd.DataFrame:
-
+        """
+        ## Relative Strength Index (RSI)
+        """
 
         close =src.to_numpy()
 

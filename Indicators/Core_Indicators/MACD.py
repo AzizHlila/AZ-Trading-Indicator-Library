@@ -4,9 +4,9 @@ from pandas import DataFrame
 
 
 class MACD:
-    def MACD(df:DataFrame,FAST_EMA=12,SLOW_EMA=26,SIGNAL=9):
+    def MACD(df:DataFrame,FAST_EMA=12,SLOW_EMA=26,SIGNAL=9)-> DataFrame:
         """
-        rtype: DataFrame["MACD","Signal","Histogram"]
+        return DataFrame["MACD","Signal","Histogram"]
         """
 
 

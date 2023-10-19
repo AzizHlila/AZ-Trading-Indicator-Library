@@ -5,7 +5,9 @@ from pandas import Series
 
 class ATR_SM:
     def ATR_SM_0(DF,Multiplier=6.3,Period=21,Smooth=100)->Series:
-
+        """
+        ## Average True Range (ATR) 
+        """
         Tatr = ATR.ATR(DF,Period)
         Multiplier = 6.3
         nLoss = Tatr * Multiplier
